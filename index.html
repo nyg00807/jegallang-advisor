@@ -2,15 +2,16 @@
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>제갈량의 상소문 · 개인 참모실</title>
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@700;800;900&display=swap');
 :root{--paper:#f4e8cb;--ink:#352719;--gold:#b48a42;--wine:#6f261d;--brown:#56351f}
 *{box-sizing:border-box}body{margin:0;background:#1e1712;color:var(--ink);font-family:Arial,"Malgun Gothic","Apple SD Gothic Neo",sans-serif}
 .shell{max-width:1050px;margin:auto;padding:18px}.frame{border:7px ridge #80552a;background:#2b1b13;padding:10px;box-shadow:0 10px 40px #0008}
-.hero{position:relative;overflow:hidden;border:2px solid #d2ac63;background:#28190f}
+.hero{position:relative;overflow:hidden;isolation:isolate;border:2px solid #d2ac63;background:#28190f}
 .hero img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:center}
-.hero:after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 35px #2b130c99;pointer-events:none}
-.topline{text-align:center;color:#e9cf92;letter-spacing:.18em;padding:12px 0 6px;font-size:13px}
+.hero:after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 35px #2b130c99;pointer-events:none}.hero-quote{position:absolute;z-index:10;right:7%;top:17%;width:min(44%,510px);padding:18px 26px 16px;background:linear-gradient(145deg,#fff5dd,#ead5aa);border:4px double #a77b32;border-radius:26px;color:#382314;box-shadow:0 6px 18px #170c08aa;text-align:center}.hero-quote .q-label{display:inline-block;margin-top:-31px;padding:4px 20px;border:1px solid #d6ae5b;border-radius:18px;background:#68401f;color:#f8e7bd;font-family:"Noto Serif KR","Nanum Myeongjo","Batang",serif;font-weight:900;font-size:clamp(12px,1.4vw,16px)}.hero-quote .q-text{margin:10px 0 3px;font-family:"Noto Serif KR","Nanum Myeongjo","Batang",serif;font-weight:900;font-size:clamp(17px,2.2vw,27px);line-height:1.55;letter-spacing:-.04em}.hero-quote .q-by{text-align:right;font-family:"Noto Serif KR","Nanum Myeongjo","Batang",serif;font-size:13px}@media(max-width:600px){.topline{font-size:28px}.hero-quote{right:3%;top:14%;width:56%;padding:9px 11px;border-width:2px}.hero-quote .q-label{font-size:10px;padding:3px 9px}.hero-quote .q-text{font-size:13px;line-height:1.35;margin:5px 0}.hero-quote .q-by{font-size:9px}}
+.topline{text-align:center;color:#f3d99c;letter-spacing:.06em;padding:18px 8px 16px;font-family:"Noto Serif KR","Nanum Myeongjo","Batang",serif;font-size:clamp(30px,5vw,48px);font-weight:900;line-height:1.2;text-shadow:0 2px 5px #000;white-space:nowrap}
 .paper{background:var(--paper);padding:clamp(20px,5vw,54px);border:5px double #a77d3d;position:relative;background-image:linear-gradient(#fff5e2aa,#fff5e2aa),repeating-linear-gradient(0deg,transparent 0 29px,#8b6c3c0c 30px)}
-h1{text-align:center;font-size:clamp(30px,5vw,48px);font-weight:800;margin:0;color:#3d2617;letter-spacing:.02em}
+h1{text-align:center;font-family:"Noto Serif KR","Nanum Myeongjo","Batang",serif;font-size:clamp(36px,5.8vw,56px);font-weight:900;margin:0;color:#3d2617;letter-spacing:.02em}
 .subtitle{text-align:center;margin:24px 0 26px;color:#75552d;font-family:"Noto Serif KR","Nanum Myeongjo","Batang",serif;font-size:clamp(30px,4.2vw,44px)!important;font-weight:900;line-height:1.4;letter-spacing:-.04em;text-shadow:0 1px #fff4}
 .ribbon{display:inline-block;background:linear-gradient(90deg,#4e2d19,#86572a);color:#f8e7bc;padding:10px 18px;border:1px solid #c29a4e;border-radius:4px;font-family:"Noto Serif KR","Nanum Myeongjo","Batang",serif;font-weight:900;font-size:clamp(19px,2.2vw,23px);line-height:1.45;margin:24px 0 10px}
 h2{font-family:"Noto Serif KR","Nanum Myeongjo","Batang",serif;font-size:clamp(25px,3.2vw,34px);font-weight:900;line-height:1.48;margin:30px 0 13px;color:#4b2a18;letter-spacing:-.035em}
@@ -27,14 +28,12 @@ hr{border:0;border-top:1px solid #cbb58c;margin:25px 0}
 .end{text-align:right;font-weight:800;margin-top:28px;font-family:"Noto Serif KR","Nanum Myeongjo","Batang",serif;font-weight:800}
 @media(max-width:600px){.shell{padding:6px}.frame{padding:5px}.paper{padding:20px 16px}p,li{font-size:15px}.hero img{max-height:320px}}
 </style></head><body><div class="shell"><div class="frame">
-<div class="topline">승상부 · 개인 참모실</div>
-<div class="hero"><img src="궁궐_오늘의한마디_헤더.png" alt="궁궐 게임 장면에서 제갈량이 신하들을 맞이하고 오늘의 한마디를 전하는 모습"></div>
+<div class="topline">승상부 개인 참모실</div>
+<div class="hero"><img src="궁궐_오늘의한마디_헤더.png" alt="말풍선이 제거된 궁궐 게임 장면"><div class="hero-quote"><div class="q-label">오늘의 한마디</div><div class="q-text" id="heroQuote"></div><div class="q-by">— 제갈량 —</div></div></div>
 <div class="paper">
-<div class="subtitle" style="font-weight:700;font-size:15px;text-align:center;margin:20px 0 18px;color:#76532c">승상부 개인 참모실 · 오늘의 계책</div>
+<div class="subtitle">오늘의 계책</div>
 <div class="meta"><span id="date"></span><span>무료 우선 시범판 · AI 연결 기본 OFF</span></div>
-<div class="ribbon">오늘의 한마디</div>
-<div class="callout"><p class="lead" id="quote">작은 시작이라도 사람의 마음을 얻는 것이 큰 일을 이루는 첫걸음이다.</p><div class="small" style="text-align:right">— 제갈량</div></div>
-<button id="quoteNext" class="alt">다른 한마디 보기</button>
+<div style="margin-top:14px"><button id="quoteNext" class="alt">다른 한마디 보기</button></div>
 
 <div class="ribbon">첫 번째 상소 · GPT를 잘 쓰는 법</div>
 <h2>질문을 던지는 자가 아니라, 생각을 함께 다듬는 자가 되십시오</h2>
@@ -91,8 +90,18 @@ hr{border:0;border-top:1px solid #cbb58c;margin:25px 0}
 <p class="small" id="counter"></p>
 </div></div></div>
 <script>
-const qs=[["작은 시작이라도 사람의 마음을 얻는 것이 큰 일을 이루는 첫걸음이다.","작은 실험으로 실제 반응을 확인하시오."],["먼 길을 걱정하기 전에 오늘 발 디딜 곳을 살피시오.","오늘의 핵심 과제 하나와 완료 조건을 정하시오."],["계책은 실행을 만나야 비로소 길이 된다.","생각을 한 가지 행동으로 바꾸고 기록하시오."],["흐린 안개 속에서는 서두른 결론보다 확인할 사실이 귀하다.","확인된 사실과 아직 검증되지 않은 가설을 나누시오."]];
-let qi=new Date().getDate()%qs.length;const q=document.getElementById('quote');function paint(){q.textContent=qs[qi][0]}paint();document.getElementById('quoteNext').onclick=()=>{qi=(qi+1)%qs.length;paint()};
+const qs=[
+["작은 시작이라도 사람의 마음을 얻는 것이 큰 일을 이루는 첫걸음이다."],["먼 길을 걱정하기 전에 오늘 발 디딜 곳을 살피시오."],["계책은 실행을 만나야 비로소 길이 된다."],["흐린 안개 속에서는 서두른 결론보다 확인할 사실이 귀하다."],["큰 뜻은 하루에 이루어지지 않으나 하루의 선택은 큰 뜻을 바꿀 수 있소."],["좋은 생각은 기록할 때 계획이 되고, 계획은 움직일 때 길이 된다."],["사람의 마음을 얻고자 한다면 먼저 그들이 어디에서 망설이는지 살피시오."],["모든 기능을 갖추려 하지 말고, 가장 필요한 한 가지를 제대로 만드시오."],["확신이 부족할수록 사실과 추측을 나누어 보시오."],["작은 실험 하나가 긴 회의보다 많은 것을 알려줄 때가 있소."],["남과 다른 길을 찾기 전에, 남들이 놓친 불편을 찾으시오."],["서두르지 않는 것이 늦는 것은 아니오. 방향을 잃지 않는 것이 중요하오."],["오늘의 질문이 내일의 사업을 만든다. 좋은 질문을 남기시오."],["실패를 두려워하지 말되, 같은 실패를 기록 없이 반복하지 마시오."],["고객의 말보다 고객이 실제로 한 행동을 함께 살피시오."],["차별점은 선언하는 것이 아니라 사용자가 체감하게 만드는 것이오."],["신뢰는 약속보다 절차에서 드러난다."],["불안을 없애려 하지 말고, 확인할 질문으로 바꾸시오."],["오늘 할 수 있는 가장 작은 검증부터 시작하시오."],["좋은 서비스는 기능이 많아서가 아니라 선택이 쉬워서 기억되오."],["창작자의 자유와 신청자의 안심 사이에서 균형을 설계하시오."],["정책은 벌을 정하기 전에 무엇을 어떻게 공개할지부터 정해야 하오."],["모호한 기준은 분쟁을 부르고, 구체적인 예시는 신뢰를 만든다."],["한 사람의 불편을 정확히 해결하는 것이 백 가지 기능보다 강할 수 있소."],["오늘의 작은 개선을 기록해 두면 그것이 훗날 서비스의 원칙이 되오."],["배운 것을 바로 바꾸기보다, 왜 바꾸는지 먼저 적어 두시오."],["시장에 답이 없을 때는 더 많은 추측보다 더 좋은 질문이 필요하오."],["혼자 만드는 사업일수록 기록이 두 번째 참모가 되어 주오."],["계획이 흔들릴 때는 목표를 버리지 말고 방법을 다시 살피시오."],["오늘의 한 걸음이 작아 보여도 멈추지 않는 자의 길은 분명해지오."]];
+const now=new Date();
+const todayStart=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+const baseDate=new Date(2026,0,1);
+const dayIndex=Math.floor((todayStart-baseDate)/86400000);
+let qi=((dayIndex%qs.length)+qs.length)%qs.length;
+const heroQuote=document.getElementById('heroQuote');
+function paint(){heroQuote.textContent=qs[qi][0];}
+if(heroQuote){paint();}
+paint();
+document.getElementById('quoteNext').onclick=()=>{qi=(qi+1)%qs.length;paint()};
 document.getElementById('date').textContent=new Intl.DateTimeFormat('ko-KR',{dateStyle:'full'}).format(new Date());
 const day=new Date().toLocaleDateString('en-CA');const key='zhuge-demo-'+day;let n=Number(localStorage.getItem(key)||0);
 const counter=document.getElementById('counter'),btn=document.getElementById('askBtn');function upd(){counter.textContent=`오늘의 시범 대화: ${n}/5회 · 이 브라우저에만 적용`;btn.disabled=n>=5}upd();
